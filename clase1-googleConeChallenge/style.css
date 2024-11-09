@@ -1,0 +1,156 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+ }
+
+ header, main, footer {
+    width: 100%;
+ }
+
+ header {
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+
+ main {
+    height: 85vh;
+    padding-top: 10rem;
+ }
+
+ footer {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 0.5rem 0.5rem;
+    background-color: rgba(194, 194, 194, 0.182);
+ }
+
+ .top-menu {
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+ }
+
+ .top-menu a {
+    text-decoration: none;
+    color: black;
+    padding-right: 1rem;
+ }
+
+ .top-menu__profile-photo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 0.5rem;
+    margin-right: 1rem;
+ }
+
+ .top-menu__menu-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+
+ }
+
+.search-bar img {
+    width: 7%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+ }
+ 
+main .void {
+    height: 12%;
+}
+main .logo {
+    height: 33%;
+}
+
+main .buttons {
+    margin-top: 2rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.google-logo {
+    display: flex;
+    justify-content: center;
+}
+.google-logo__letter1 { color: #4285F4; } /* Azul */
+.google-logo__letter2 { color: #EA4335; } /* Rojo */
+.google-logo__letter3 { color: #FBBC05; } /* Amarillo */
+.google-logo__letter4 { color: #4285F4; } /* Azul */
+.google-logo__letter5 { color: #34A853; } /* Verde */
+.google-logo__letter6 { color: #EA4335; } /* Rojo */
+
+.google-logo span {
+    font-size: 5rem;
+}
+
+.search-bar {
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 2.4rem;
+    border: 0.01rem solid grey;
+    width: 50%;
+    height: 2.7rem;
+    align-items: center;
+}
+
+.search-bar__form {
+    width: 80%;
+    height: 100%;
+}
+
+.search-bar__input {
+    border: none;
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.search-bar__input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+.buttons button {
+    font-size: 1rem;
+    margin: 0 0.5rem 0;
+    border: none;
+    color: rgb(116, 116, 116);
+    height: 2.5rem;
+    padding: 0 0.5rem 0;
+    border-radius: 0.1rem;
+}
+
+.left-options ul, .right-options ul {
+    list-style: none;
+    display: flex;
+}
+
+.left-options ul li {
+    padding-right: 0.5rem;
+}
+
+.right-options ul li {
+    padding-right: 0.5rem;
+}
+
+.left-options ul li a, .right-options ul li a {
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+    font-size: 0.6rem;
+
+}
