@@ -1,0 +1,114 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header {
+    width: 100;
+    height: 6rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 25rem;
+    height: auto;
+}
+
+nav .nav-right-section a { 
+    color: black;
+    margin-right: 1rem ;
+}
+
+nav .nav-right-section .menu-icon { 
+    background-image: url('https://cdn-icons-png.flaticon.com/512/95/95088.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+nav .nav-right-section img { 
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+}
+
+main {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+.main-logo {
+    width: 53rem;
+    margin: 0 auto;
+}
+
+.main-logo img {
+    width: 30rem;
+}
+
+.main-input {
+    margin: 0 auto 3.5rem;
+    width: 53rem;
+}
+
+.main-input .main-input-container {
+    width: 52.5rem;
+    border-radius: 10rem;
+    border: 0.1rem solid #dadadb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-input .main-input-container:hover {
+    box-shadow: 0 0.1rem 0.6rem #20212447;
+}
+
+.main-input .main-input-container input {
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
+
+.main-input .main-input-container .search-icon {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.main-input .main-input-container .micro-icon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3128/3128290.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
